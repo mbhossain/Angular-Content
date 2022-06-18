@@ -1,1 +1,3 @@
-<app-child [parentData]="salutation"></app-child>
+<app-child [parentData]="salutation" (childEvent)="message = $event"></app-child>
+
+<p>{{message}}</p>
