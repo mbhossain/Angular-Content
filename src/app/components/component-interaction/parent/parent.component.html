@@ -1,3 +1,5 @@
 <app-child [parentData]="salutation" (childEvent)="message = $event"></app-child>
 
 <p>{{message}}</p>
+
+{{childComponent.sayHi()}}

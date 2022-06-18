@@ -19,4 +19,8 @@ export class ChildComponent implements OnInit {
     this.childEvent.emit('I am come from Child....');
   }
 
+  sayHi() {
+    console.log('viewChild tested...');
+  }
+
 }
