@@ -12,11 +12,3 @@
     display: flex;
     text-align: center;
 }
-
-button {
-    width: 120px;
-    height: 30px;
-    border: none;
-    text-align: center;
-    background-color: coral;
-}
