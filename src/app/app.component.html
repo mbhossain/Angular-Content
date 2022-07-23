@@ -1,21 +1,7 @@
-<!-- component interaction -->
+<nav class="row">
+    <button routerLink="class-binding" routerLinkActive="active" style="margin:5px;">Class Binding</button>
+    <button routerLink="component-interaction" routerLinkActive="active" style="margin:5px;">Component Interaction</button>
+    <button routerLink="view-encapsulation" routerLinkActive="active" style="margin:5px;">View Encapsulation</button>
+</nav>
 
-<!-- <app-parent></app-parent> -->
-
-<div style="margin: 20px auto; width:780px">
-    <div class="app-component">
-        <h2>
-            App Component
-        </h2>
-        <p>
-            This is <b>app</b> component.
-        </p>
-        <button>Button</button>
-    </div>
-
-    <div class="component-container">
-        <app-component-one></app-component-one>
-        <app-component-two></app-component-two>
-    </div>
-
-</div>
+<router-outlet></router-outlet>
